@@ -1,24 +1,17 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "name": "Rohith Pudari",
+    "label": "PhD Student",
+    "image": "prof_pics.jpg",
+    "email": "r.pudari@mail.utoronto.ca",
+    "phone": "",
+    "url": "https://rohithpudari.github.io/",
+    "summary": "I am a PhD student at the University of Toronto. I am working in the field of machine learning for software development.",
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "rohithpudari",
+        "url": "https://twitter.com/rohithpudari"
       }
     ]
   },

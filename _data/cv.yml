@@ -3,95 +3,67 @@
   contents:
     - name: Full Name
       value: Rohith Pudari
-    - name: Date of Birth
-      value: 1st June 1998
+    - name: Email
+      value: r.pudari@mail.utoronto.ca
     - name: Languages
       value: English, Hindi, Telugu
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
+    - title: Doctor of Philosophy
       institution: University of Toronto, Toronto, Canada
       year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master of Science
+      institution: University of Victoria, Victoria, Canada
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
+        - "Thesis title: AI Supported Software Development: Moving beyond Code Completion"
+    - title: Bachelor of Technology
+      institution: Jawaharlal Nehru Technological University, Hyderabad, India
+      year: 2015 - 2019
+      description:
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Scientist
+      institution: Deloitte, Hyderabad, India
+      year: 2019 - 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Created architecture for a server cluster to support access and analysis of data to employees spread across the world.
+        - Worked on data of fortune 500 pharma company, made a custom model to predict risks and demand of products using various factors and add it to the reports.
+        - Combined models through ensemble modelling, Present information using data visualisation techniques, Proposed solutions and strategies to business challenges.
+    - title: Software Engineering Intern
+      institution: Google, Hyderabad, India
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - Created the visual flow builder for the DialogueFlow web interface.
+        - Worked on creating Dialogue-flow intent generation process and scaling up the payment gateway for the google payment application in India.
+        - Gave multiple talks on the usages and ways to integrate DialogueFlow into existing softwares at conferences and meetups.
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/HarisSmajlovic/smith-waterman-optimization">Smith-Waterman Algorithm optimization</a>
+      year: 2020
+      description: 
+      - Performance optimizations for Linear gap Smith-Waterman algorithm, which is hard to parallelize due to its sequential nature of instructions.
+      - In comparison to our base non-parallel optimized algorithm, The final algorithm is on the magnitude of 74x faster. Discounting the overhead experienced from  PCIe transfers, using a GPU significantly sped up the algorithm.
+      - Took a base implementation of the Smith-Waterman algorithm, and iteratively improved the data and task  parallelism of the algorithm, improved memory access patterns, added SIMD and multicore, and GPU usage to increase algorithmic performance by more than 74x.
 
-- title: Honors and Awards
+- title: Teaching and Mentorship
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: ECE 444 - Software Engineering
+      institution: University of Toronto, Toronto, Canada
+      year: 2022 - 2023
+      description:
+        - This course explores these issues broadly covering the fundamentals of modern software engineering. 
+        - The course combines rigorous foundations (guiding principles, precise terminology, well-defined techniques) with extensive opportunities for the development of practical skills using state-of-the art tools and techniques based on the latest research and practice in software engineering.
+    - title: SENG 321 - Requirements Engineering
+      institution: University of Victoria, Victoria, Canada
+      year: 2021 - 2022
+      description:
+        - This course is designed to address the issues of requirements management throughout the software development life cycle, teaching techniques for requirements elicitation, analysis and modelling, as well as formal specification, negotiation and decision making

@@ -2,10 +2,12 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: false
+nav: true
 nav_order: 3
-cv_pdf: rohithpudari.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: Rohith_CV.pdf
+description: >
+  Here is a shortend version of my CV.
+  You can view the full version of my CV using the pdf button.
 toc:
   sidebar: left
 ---
