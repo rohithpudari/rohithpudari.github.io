@@ -19,7 +19,7 @@
       institution: University of Victoria, Victoria, Canada
       year: 2020 - 2022
       description:
-        - "Thesis title: AI Supported Software Development: Moving beyond Code Completion"
+        - <a href= "https://dspace.library.uvic.ca/handle/1828/14155">Thesis title: AI Supported Software Development: Moving beyond Code Completion</a>
     - title: Bachelor of Technology
       institution: Jawaharlal Nehru Technological University, Hyderabad, India
       year: 2015 - 2019
@@ -46,16 +46,25 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/OpenMined/SwiftSyft">SwiftSyft, OpenMined</a>
+      year: 2021
+      description:
+      - Contributed a lazy implementation of the data loading functionality and added support for websocket schemes for the repository.
+      - OpenMined is an open-source ecosystem for federated learning on web and mobile. SwiftSyft is a part of this ecosystem, responsible for bringing secure federated learning to iOS devices making it easy to train and inference PySyft models on iOS devices.
     - title: <a href="https://github.com/HarisSmajlovic/smith-waterman-optimization">Smith-Waterman Algorithm optimization</a>
       year: 2020
       description: 
       - Performance optimizations for Linear gap Smith-Waterman algorithm, which is hard to parallelize due to its sequential nature of instructions.
-      - In comparison to our base non-parallel optimized algorithm, The final algorithm is on the magnitude of 74x faster. Discounting the overhead experienced from  PCIe transfers, using a GPU significantly sped up the algorithm.
-      - Took a base implementation of the Smith-Waterman algorithm, and iteratively improved the data and task  parallelism of the algorithm, improved memory access patterns, added SIMD and multicore, and GPU usage to increase algorithmic performance by more than 74x.
+      - Took a base implementation of the Smith-Waterman algorithm, and iteratively improved the data and task parallelism of the algorithm, improved memory access patterns, added SIMD and multicore, and GPU usage to increase algorithmic performance by more than 74x.
 
 - title: Teaching and Mentorship
   type: time_table
   contents:
+    - title: CSC 2130 - Empirical Research Methods in Software Engineering
+      institution: University of Toronto, Toronto, Canada
+      year: 2024
+      description:
+        - This course provides an overview and hands-on experience with a core of qualitative and quantitative empirical research methods, including interviews, qualitative coding, survey design, and large-scale mining and analysis of data.
     - title: ECE 444 - Software Engineering
       institution: University of Toronto, Toronto, Canada
       year: 2022 - 2023
