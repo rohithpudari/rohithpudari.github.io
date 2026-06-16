@@ -1,0 +1,23 @@
+metadata:
+  last_updated: '2026-06-16'
+papers:
+  refsp58AAAAJ:6_hjMsCP8ZoC:
+    citations: 4
+    title: Aligning Documentation and Q&A Forum through Constrained Decoding with Weak Supervision
+    year: '2023'
+  refsp58AAAAJ:6bLC7aUMtPcC:
+    citations: 3
+    title: 'AI Supported Software Development: Moving Beyond Code Completion'
+    year: '2022'
+  refsp58AAAAJ:Ade32sEp0pkC:
+    citations: 46
+    title: 'From copilot to pilot: Towards AI supported software development'
+    year: '2023'
+  refsp58AAAAJ:jFemdcug13IC:
+    citations: 3
+    title: Local vs Global Differential Privacy
+    year: '2023'
+  refsp58AAAAJ:sszUF3NjhM4C:
+    citations: 1
+    title: Real Time Face Recognition Using Convoluted Neural Networks
+    year: '2020'

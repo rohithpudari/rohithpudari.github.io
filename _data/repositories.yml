@@ -1,6 +1,6 @@
 github_users:
   - rohithpudari
 
-github_repos:
-  - alshedivat/al-folio
+repo_description_lines_max: 2
 
+github_repos:
