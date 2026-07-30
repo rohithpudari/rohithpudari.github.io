@@ -112,9 +112,12 @@ analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
   # google: G-M07GF2K8XZ # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+  google: 
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+  cloudfare:
+enable_simple_analytics: false
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: 5UcRb62v4RmyzDXagCRjt8IxL55YTgXEoiFUqpP7JNc # your google-site-verification ID (Google Search Console)
@@ -127,6 +130,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name:  # blog_name will be displayed in your blog page
 blog_description: A blog on my academic and personal experiences and interests
 permalink: /blog/:year/:title/
+lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
@@ -208,8 +212,10 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - AGENTS.md
   - al-folio-upgrade-report.md
   - bin/
+  - CLAUDE.md
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
