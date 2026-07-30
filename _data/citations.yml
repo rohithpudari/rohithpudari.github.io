@@ -1,6 +1,10 @@
 metadata:
-  last_updated: '2026-06-16'
+  last_updated: '2026-07-30'
 papers:
+  refsp58AAAAJ:1DsIQWDZLl8C:
+    citations: 0
+    title: 'When Tools Overlook Domain Knowledge: An Empirical Study of Refactoring in Scientific Software'
+    year: '2025'
   refsp58AAAAJ:6_hjMsCP8ZoC:
     citations: 4
     title: Aligning Documentation and Q&A Forum through Constrained Decoding with Weak Supervision
@@ -10,11 +14,15 @@ papers:
     title: 'AI Supported Software Development: Moving Beyond Code Completion'
     year: '2022'
   refsp58AAAAJ:Ade32sEp0pkC:
-    citations: 46
+    citations: 52
     title: 'From copilot to pilot: Towards AI supported software development'
     year: '2023'
+  refsp58AAAAJ:RoXSNcbkSzsC:
+    citations: 0
+    title: PyOverflow-Final Report
+    year: Unknown Year
   refsp58AAAAJ:jFemdcug13IC:
-    citations: 3
+    citations: 4
     title: Local vs Global Differential Privacy
     year: '2023'
   refsp58AAAAJ:sszUF3NjhM4C:
