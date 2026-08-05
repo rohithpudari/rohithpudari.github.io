@@ -1,0 +1,35 @@
+---
+---
+@charset "utf-8";
+
+/* Built-in Sass modules you will likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/*
+  Configure design tokens before loading partials.
+  - #3A6FD8 is the light-theme accent.
+  - #7FB5FF is a brighter dark-theme counterpart for contrast on dark backgrounds.
+*/
+@use "variables" with (
+  $max-content-width: 930px,
+  $purple-color: #3a6fd8,
+  $cyan-color: #7fb5ff
+);
+
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";

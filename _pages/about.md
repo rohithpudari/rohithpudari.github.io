@@ -7,7 +7,7 @@ subtitle: PhD Candidate @ University of Toronto
 profile:
   align: right
   image: prof_pics.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -32,8 +32,6 @@ In particular, I study open-source software ecosystems and developer communities
 Prior to joining the University of Toronto, I completed my M.Sc. in Computer Science at the University of Victoria under the supervision of [Prof. Neil Ernst](https://neilernst.net), where I investigated the role of AI-assisted tools in software development and their impact on developer productivity and workflows.
 
 <div style="clear: both;"></div>
-
-
 
 <div class="row">
   <div class="col-12 col-md-6">
