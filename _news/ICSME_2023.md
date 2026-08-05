@@ -7,4 +7,4 @@ related_posts: true
 ---
 
 Our paper "Aligning Documentation and Q&A Forum through Constrained Decoding with Weak Supervision" co-authored with Shiyuan Zhou, [Prof. Iftekhar Ahmed](https://www.ics.uci.edu/~iftekha/), Dr. Zhuyun Dai and [Prof Shurui Zhou](https://www.eecg.utoronto.ca/~shuruiz/) has been accepted to the [ICSME 2023 New Ideas and Emerging Results Track!](https://conf.researchr.org/track/icsme-2023/icsme-2023-new-ideas-and-emerging-results-track).\\
-This paper is available in my [publications](publications/) page.
+This paper is available in my [publications]({{ '/publications/' | relative_url }}) page.
