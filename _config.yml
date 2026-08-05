@@ -13,10 +13,10 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: machine learning, research, phd, software engineering, academic, portfolio-website  # add your own keywords or leave empty
+keywords: machine learning, research, phd, software engineering, academic, portfolio-website # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://rohithpudari.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -29,12 +29,12 @@ back_to_top: true # set to false to disable the back to top button
 # -----------------------------------------------------------------------------
 
 # repo color theme
-repo_theme_light: solarized-light  # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: monokai       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: solarized-light # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: monokai # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: false
-  theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
 
 # External service URLs for repository page
@@ -112,7 +112,7 @@ analytics:
   # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
   # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
   # google: G-M07GF2K8XZ # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-  google: 
+  google:
   cronitor: # cronitor RUM analytics site ID (format: XXXXXXXXX)
   pirsch: # your Pirsch analytics site ID (length 32 characters)
   openpanel: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -127,7 +127,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name:  # blog_name will be displayed in your blog page
+blog_name: # blog_name will be displayed in your blog page
 blog_description: A blog on my academic and personal experiences and interests
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -143,14 +143,14 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: rohithpudari/rohithpudari.github.io     # <your-github-user-name>/<your-github-repo-name>
-  repo_id: "R_kgDOLBm2BA"                      # leave empty or specify your repo_id (see https://giscus.app/)
-  category: General             # name of the category under which discussions will be created
-  category_id: "DIC_kwDOLBm2BM4DAhW9"       # leave empty or specify your category_id (see https://giscus.app/)
-  mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  repo: rohithpudari/rohithpudari.github.io # <your-github-user-name>/<your-github-repo-name>
+  repo_id: "R_kgDOLBm2BA" # leave empty or specify your repo_id (see https://giscus.app/)
+  category: General # name of the category under which discussions will be created
+  category_id: "DIC_kwDOLBm2BM4DAhW9" # leave empty or specify your category_id (see https://giscus.app/)
+  mapping: title # identify discussions by post title
+  strict: 1 # use strict identification mode
+  reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
+  input_position: bottom # whether to display input form below (bottom) or above (top) the comments
   dark_theme: dark # name of the dark color scheme (preferred works well with al-folio dark mode)
   light_theme: light # name of the light color scheme (preferred works well with al-folio light mode)
   emit_metadata: 0
@@ -189,7 +189,7 @@ collections:
     output: true
   projects:
     output: true
-  teachings: 
+  teachings:
     output: true
 
 # -----------------------------------------------------------------------------
@@ -202,7 +202,7 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -210,7 +210,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages']
+include: ["_pages"]
 exclude:
   - AGENTS.md
   - al-folio-upgrade-report.md
@@ -267,7 +267,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-
   # al-folio plugins
   - al_folio_core
   - al_icons
@@ -310,7 +309,6 @@ jekyll-minifier:
   # JS minification is delegated to jekyll-terser (compress_javascript above is false).
   exclude: ["robots.txt"]
 
-
 # -----------------------------------------------------------------------------
 # Terser
 # -----------------------------------------------------------------------------
@@ -332,7 +330,7 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    
+
 display_tags: [thesis] # these tags will be displayed on the front page of your blog
 display_categories: [ai-agents, research-papers] # these categories will be displayed on the front page of your blog
 
@@ -341,7 +339,6 @@ display_categories: [ai-agents, research-papers] # these categories will be disp
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: [Pudari]
   first_name: [Rohith]
 
@@ -374,11 +371,39 @@ enable_publication_badges:
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, additional_info, altmetric, annotation, arxiv, award,award_name, bibtex_show, blog, code, dimensions, eprint, google_scholar_id, hal, html, inspirehep_id, pdf, pmid, poster, preview, selected, slides, supp, video, website,]
+filtered_bibtex_keywords: 
+  [
+    abbr,
+    abstract,
+    additional_info,
+    altmetric,
+    annotation,
+    arxiv,
+    award,
+    award_name,
+    bibtex_show,
+    blog,
+    code,
+    dimensions,
+    eprint,
+    google_scholar_id,
+    hal,
+    html,
+    inspirehep_id,
+    pdf,
+    pmid,
+    poster,
+    preview,
+    selected,
+    slides,
+    supp,
+    video,
+    website,
+  ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit:  # leave blank to always show all authors
-more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+max_author_limit: # leave blank to always show all authors
+more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
@@ -393,7 +418,6 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
-
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

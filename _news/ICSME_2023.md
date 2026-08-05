@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our paper "Aligning Documentation and Q&A Forum through Constrained Decoding with Weak Supervision" has been accepted to ICSME 2023!
-date: 2023-10-05 
+date: 2023-10-05
 inline: true
 related_posts: true
 ---
