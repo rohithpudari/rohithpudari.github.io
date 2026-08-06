@@ -61,7 +61,7 @@ Slides
       <i class="fa-solid fa-graduation-cap mt-1 mr-1"></i>
       <div style="padding-left:10px;">
         <strong>  PhD Candidate in Software Engineering</strong><br>
-      <a href="https://www.utoronto.ca/">University of Toronto</a> (2022 - 2026). <br>
+      <a href="https://www.utoronto.ca/">University of Toronto</a> (2022 - Now). <br>
       Advisor: <a href="https://www.eecg.utoronto.ca/~shuruiz/">Prof. Shurui Zhou</a>
       </div>
     </div>
@@ -76,7 +76,7 @@ Slides
     <div class="d-flex align-items-start mb-3">
       <i class="fa-solid fa-graduation-cap mr-1 mt-1"></i>
       <div style="padding-left:10px;">
-        <strong>B.Tech in Information Technology, 2019</strong><br>
+        <strong>B.Tech in Information Technology</strong><br>
         <a href="https://sreenidhi.edu.in/">Sreenidhi Institute of Science and Technology</a> (2015 - 2019).
       </div>
     </div>
