@@ -23,13 +23,25 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in the [FORCOLAB](https://shuiblue.github.io/forcolab-uoft/) research group at the University of Toronto, where I am advised by [Prof. Shurui Zhou](https://www.eecg.utoronto.ca/~shuruiz/).
-My research lies at the intersection of machine learning and software engineering, with a particular interest in understanding how AI can support developers throughout the software development lifecycle.
+I am a PhD candidate in the
+[FORCOLAB](https://shuiblue.github.io/forcolab-uoft/) research group at the
+University of Toronto, where I am advised by
+[Prof. Shurui Zhou](https://www.eecg.utoronto.ca/~shuruiz/). My research lies at
+the intersection of machine learning and software engineering, with a particular
+interest in understanding how AI can support developers throughout the software
+development life cycle.
 
-My work focuses on leveraging machine learning techniques to make software development more efficient, effective, and accessible.
-In particular, I study open-source software ecosystems and developer communities, exploring how large-scale data from code repositories, documentation, and developer interactions can be used to improve software engineering practices and tooling.
+My work focuses on leveraging machine learning techniques to make software
+development more efficient, effective, and accessible. In particular, I study
+open-source software ecosystems and developer communities, exploring how
+large-scale data from code repositories, documentation, and developer
+interactions can be used to improve software engineering practices and tooling.
 
-Prior to joining the University of Toronto, I completed my M.Sc. in Computer Science at the University of Victoria under the supervision of [Prof. Neil Ernst](https://neilernst.net), where I investigated the role of AI-assisted tools in software development and their impact on developer productivity and workflows.
+Prior to joining the University of Toronto, I completed my M.Sc. in Computer
+Science at the University of Victoria under the supervision of
+[Prof. Neil Ernst](https://neilernst.net), where I investigated the role of
+AI-assisted tools in software development and their impact on developer
+productivity and workflows.
 
 <div style="clear: both;"></div>
 
@@ -43,16 +55,14 @@ Prior to joining the University of Toronto, I completed my M.Sc. in Computer Sci
 </a>
 <br>
 
-Committee:
-<a href="https://neilernst.net">Prof. Neil Ernst</a>,
+Committee: <a href="https://neilernst.net">Prof. Neil Ernst</a>,
 <a href="https://onlineacademiccommunity.uvic.ca/jensweb/">Prof. Jens Weber</a>
 <br>
 
 <a class="btn btn-sm btn-outline-primary mt-2"
-   href="{{ '/assets/pdf/Master_Thesis_Slides.pdf' | relative_url }}">
-<i class="fa-solid fa-file-powerpoint"></i>
-Slides
-</a>
+   href="{{ '/assets/pdf/Master_Thesis_Slides.pdf' | relative_url }}"> <i class="fa-solid fa-file-powerpoint"></i>
+Slides </a>
+
   </div>
 
   <div class="col-12 col-md-6">

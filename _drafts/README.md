@@ -25,19 +25,19 @@ The files need to be formatted as `yyyy-mm-dd` for them to be parsed by the code
 
 The header info for each blog post needs the following:
 
-- `title`: title of the blog post. No need for single quotes unless there's a special character (especially a colon) in the title.   
-- `permalink`: link to the post. Note that if you also have something called `link`, then the `title` will link to whatever you put in `link` and the `Read more` will link to the `permalink`. Best to only have one link though...   
+- `title`: title of the blog post. No need for single quotes unless there's a special character (especially a colon) in the title.
+- `permalink`: link to the post. Note that if you also have something called `link`, then the `title` will link to whatever you put in `link` and the `Read more` will link to the `permalink`. Best to only have one link though...
 
 The main blog page will show the first paragraph of text, and then include a `Read more...` link.
 Most of the blog post behavior is defined in `{% include archive-single.html %}` (`archive-single.html` is in the `_includes` folder).
 
 ## Notes on notebooks
 
-1. Write the jupyter notebook in the `_jupyter` folder   
-1. When it's finished, `jupyter nbconvert <nb> --to markdown`   
-1. Move it to the `_posts` folder   
-1. Move the images to the `images` folder    
-1. Add `/images/` to all image paths in the markdown file   
+1. Write the jupyter notebook in the `_jupyter` folder
+1. When it's finished, `jupyter nbconvert <nb> --to markdown`
+1. Move it to the `_posts` folder
+1. Move the images to the `images` folder
+1. Add `/images/` to all image paths in the markdown file
 
 You can also run the `convert_and_move.sh` function in the `_jupyter` folder.
 Note that you still have to go in and manually add the `/images/` path,
@@ -50,6 +50,7 @@ Still to figure out: how to change font size/format of cells, how to have **[In 
 
 1. run the server locally using `bundle exec jekyll serve`
 2. open another terminal and run this in `desktop/test` folder
+
 ```bash
 wget \
  --recursive \
@@ -59,12 +60,13 @@ wget \
  --convert-links \
  --restrict-file-names=windows \
  --domains localhost http://localhost:8080
- ```
- 3. rename the localhost folder inside test to `public_html`
- 4. upload the public_html folder to torrent server using this ```scp -r public_html torrent:```
- 5. ssh into torrent server and run this form root directory
- `chmod -R a+r  ~rpudari/public_html/*`
-6. And that's it.
+```
+
+3.  rename the localhost folder inside test to `public_html`
+4.  upload the public_html folder to torrent server using this `scp -r public_html torrent:`
+5.  ssh into torrent server and run this form root directory
+    `chmod -R a+r  ~rpudari/public_html/*`
+6.  And that's it.
 
 # Notes from the original repo
 
@@ -78,13 +80,14 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right.
 1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
 1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
+1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
 1. Check status by going to the repository settings, in the "GitHub pages" section
 1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
 
 See more info at https://academicpages.github.io/
 
 ## To run locally (not on GitHub Pages, to serve on your own computer)
+
 1. Clone the repository and made updates as detailed above
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
 1. Run `bundle clean` to clean up the directory (no need to run `--force`)
