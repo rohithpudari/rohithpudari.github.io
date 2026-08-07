@@ -16,7 +16,6 @@ footer_text: >
 keywords: machine learning, research, phd, software engineering, academic, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://rohithpudari.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -31,13 +30,6 @@ back_to_top: true # set to false to disable the back to top button
 # repo color theme
 repo_theme_light: solarized-light # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: monokai # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-
-# Off by default: addresses are then split at build time so the HTML contains no
-# `user@host` and no `mailto:` for harvesters to scrape, and clicking one copies
-# it to the clipboard instead of opening a mail client.
-# See "Protecting email addresses from scrapers" in docs/CUSTOMIZE.md.
-protect_email: true
-
 repo_trophies:
   enabled: false
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -49,7 +41,6 @@ repo_trophies:
 external_services:
   github_readme_stats_url: https://github-readme-stats.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
-
 # -----------------------------------------------------------------------------
 # al-folio API (v1.x)
 # -----------------------------------------------------------------------------
@@ -151,9 +142,9 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
   repo: rohithpudari/rohithpudari.github.io # <your-github-user-name>/<your-github-repo-name>
-  repo_id: "R_kgDOLBm2BA" # leave empty or specify your repo_id (see https://giscus.app/)
+  repo_id: "R_kgDOTwR9AA" # leave empty or specify your repo_id (see https://giscus.app/)
   category: General # name of the category under which discussions will be created
-  category_id: "DIC_kwDOLBm2BM4DAhW9" # leave empty or specify your category_id (see https://giscus.app/)
+  category_id: "DIC_kwDOTwR9AM4DC1uT" # leave empty or specify your category_id (see https://giscus.app/)
   mapping: title # identify discussions by post title
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
@@ -291,9 +282,6 @@ plugins:
   - al_math
   - al_comments
   - al_newsletter
-  - al_email_protect
-  - al_marimo
-  - al_rtl
 
 # Sitemap settings
 defaults:
